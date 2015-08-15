@@ -17,6 +17,7 @@
 		66F4F2711B71B6610054D54D /* MyCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F4F2701B71B6610054D54D /* MyCustomTableViewCell.xib */; };
 		66F4F2741B71B6A20054D54D /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F4F2731B71B6A20054D54D /* MyCustomTableViewCell.m */; };
 		FC885EE01B7EF618004525BC /* Grocery.m in Sources */ = {isa = PBXBuildFile; fileRef = FC885EDF1B7EF618004525BC /* Grocery.m */; };
+		FC990F3E1B7F5C6400A54B04 /* CustomMatchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC990F3D1B7F5C6400A54B04 /* CustomMatchDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		66F4F2731B71B6A20054D54D /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
 		FC885EDE1B7EF618004525BC /* Grocery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grocery.h; sourceTree = "<group>"; };
 		FC885EDF1B7EF618004525BC /* Grocery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grocery.m; sourceTree = "<group>"; };
+		FC990F3C1B7F5C6400A54B04 /* CustomMatchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMatchDetailViewController.h; sourceTree = "<group>"; };
+		FC990F3D1B7F5C6400A54B04 /* CustomMatchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMatchDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 			children = (
 				661166331B6FB6640092C469 /* ViewController.m */,
 				661166321B6FB6640092C469 /* ViewController.h */,
+				FC990F3C1B7F5C6400A54B04 /* CustomMatchDetailViewController.h */,
+				FC990F3D1B7F5C6400A54B04 /* CustomMatchDetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			files = (
 				661166341B6FB6640092C469 /* ViewController.m in Sources */,
 				FC885EE01B7EF618004525BC /* Grocery.m in Sources */,
+				FC990F3E1B7F5C6400A54B04 /* CustomMatchDetailViewController.m in Sources */,
 				661166311B6FB6640092C469 /* AppDelegate.m in Sources */,
 				66F4F2741B71B6A20054D54D /* MyCustomTableViewCell.m in Sources */,
 				6611662E1B6FB6640092C469 /* main.m in Sources */,

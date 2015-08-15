@@ -78,10 +78,26 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgq-1z-HSe">
+                        <rect key="frame" x="0.0" y="8" width="63" height="63"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZWC-jL-Q6u">
+                        <rect key="frame" x="11" y="71" width="52" height="46"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5OQ-nG-r3y">
+                        <rect key="frame" x="256" y="8" width="68" height="63"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qa4-D3-zOh">
+                        <rect key="frame" x="275" y="71" width="49" height="46"/>
+                    </imageView>
                 </subviews>
             </tableViewCellContentView>
             <connections>
                 <outlet property="bowlerLabel" destination="sH5-K6-C3P" id="rbk-nc-3rl"/>
+                <outlet property="imageBottom1" destination="ZWC-jL-Q6u" id="Eef-hS-TqI"/>
+                <outlet property="imageBottom2" destination="Qa4-D3-zOh" id="4kT-D5-QTa"/>
+                <outlet property="imageTop1" destination="wgq-1z-HSe" id="A0A-T1-268"/>
+                <outlet property="imageTop2" destination="5OQ-nG-r3y" id="1qe-rf-h29"/>
                 <outlet property="matchLabel" destination="GZB-5g-rRX" id="mcq-Ye-hbb"/>
                 <outlet property="oversLeftLabel" destination="Nbp-tf-u7o" id="SsD-Bh-TKv"/>
                 <outlet property="runnerEndLabel" destination="NsM-tS-V4L" id="JGt-fH-GSA"/>

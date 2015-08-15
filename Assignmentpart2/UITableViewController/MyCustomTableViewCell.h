@@ -23,4 +23,10 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *oversLeftLabel;
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageTop1;
+@property (strong, nonatomic) IBOutlet UIImageView *imageTop2;
+@property (strong, nonatomic) IBOutlet UIImageView *imageBottom1;
+@property (strong, nonatomic) IBOutlet UIImageView *imageBottom2;
+
+
 @end
